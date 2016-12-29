@@ -1,0 +1,309 @@
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC");
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Pizza_errors\/style\.scss}line{font-family:\0000321}}
+.box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 100 vh;
+  font-family: 'Amatic SC', cursive;
+  background: #fff2df;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Pizza_errors\/style\.scss}line{font-family:\0000330}}
+.box_pizza {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Pizza_errors\/style\.scss}line{font-family:\0000336}}
+.box_text {
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  height: 150px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Pizza_errors\/style\.scss}line{font-family:\0000341}}
+.box_text .text {
+  display: inline-block;
+  width: 240px;
+  height: 55px;
+  font-size: 50px;
+  font-weight: bolder;
+  color: #350307;
+  text-align: center;
+  border-radius: 15px;
+  background: #a81527;
+  padding: 10px;
+  box-shadow: 0 0 0 2px #7b0f1c;
+  z-index: 2;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Pizza_errors\/style\.scss}line{font-family:\0000356}}
+.box_text span {
+  position: relative;
+  top: 35px;
+  display: inline-block;
+  width: 110px;
+  height: 60px;
+  background: #a81527;
+  z-index: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Pizza_errors\/style\.scss}line{font-family:\0000365}}
+.box_text span:first-child {
+  right: -20px;
+  border-radius: 100px 0 15px 200px;
+  box-shadow: 1px 1px 0 1px #7b0f1c, 1px -1px 0 1px #7b0f1c;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Pizza_errors\/style\.scss}line{font-family:\0000372}}
+.box_text span:first-child::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 4px;
+  width: 0;
+  height: 0;
+  border-right: 15px solid transparent;
+  border-top: 40px solid #fff2df;
+  border-left: 15px solid transparent;
+  transform: rotate(-90deg);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Pizza_errors\/style\.scss}line{font-family:\0000386}}
+.box_text span:last-child {
+  right: 20px;
+  border-radius: 0 100px 200px 15px;
+  box-shadow: -1px 1px 0 1px #7b0f1c, -1px -1px 0 1px #7b0f1c;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Pizza_errors\/style\.scss}line{font-family:\0000393}}
+.box_text span:last-child::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: 4px;
+  width: 0;
+  height: 0;
+  border-right: 15px solid transparent;
+  border-top: 40px solid #fff2df;
+  border-left: 15px solid transparent;
+  transform: rotate(90deg);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Pizza_errors\/style\.scss}line{font-family:\00003110}}
+.base {
+  width: 260px;
+  height: 260px;
+  background: #f3d255;
+  border-radius: 50%;
+  border: 5px solid #a81527;
+  box-shadow: 0 0 0 15px #f0c525;
+  margin: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Pizza_errors\/style\.scss}line{font-family:\00003120}}
+.filling {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  padding: 30px 50px;
+  box-sizing: border-box;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Pizza_errors\/style\.scss}line{font-family:\00003127}}
+.filling .eye span {
+  position: relative;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border-radius-left: 2%;
+  border: 7px solid #b49989;
+  border-bottom: 8px solid #b49989;
+  background: #5b120e;
+  z-index: 2;
+  animation: clockwise .8s linear infinite;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Pizza_errors\/style\.scss}line{font-family:\00003140}}
+.filling .eye span:nth-child(even) {
+  bottom: -114px;
+  animation-delay: .2s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Pizza_errors\/style\.scss}line{font-family:\00003145}}
+.filling .eye span:nth-child(3) {
+  top: -8px;
+  left: 47px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Pizza_errors\/style\.scss}line{font-family:\00003150}}
+.filling .eye span:nth-child(5) {
+  top: 15px;
+  left: -20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Pizza_errors\/style\.scss}line{font-family:\00003155}}
+.filling .eye span:nth-child(7) {
+  top: -7px;
+  left: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Pizza_errors\/style\.scss}line{font-family:\00003160}}
+.filling .eye span:nth-child(9) {
+  left: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Pizza_errors\/style\.scss}line{font-family:\00003164}}
+.filling .eye span:nth-child(11) {
+  left: 70px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Pizza_errors\/style\.scss}line{font-family:\00003168}}
+.filling .eye span:nth-child(13) {
+  left: 70px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Pizza_errors\/style\.scss}line{font-family:\00003172}}
+.filling .eye span:nth-child(15) {
+  top: -88px;
+  left: 70px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Pizza_errors\/style\.scss}line{font-family:\00003177}}
+.filling .eye span:nth-child(2) {
+  left: -30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Pizza_errors\/style\.scss}line{font-family:\00003181}}
+.filling .eye span:nth-child(4) {
+  left: 57px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Pizza_errors\/style\.scss}line{font-family:\00003185}}
+.filling .eye span:nth-child(6) {
+  left: 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Pizza_errors\/style\.scss}line{font-family:\00003189}}
+.filling .eye span:nth-child(14) {
+  bottom: -60px;
+  left: -44px;
+}
+
+@keyframes clockwise {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Pizza_errors\/style\.scss}line{font-family:\00003202}}
+.mushroom {
+  position: relative;
+  z-index: 2;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Pizza_errors\/style\.scss}line{font-family:\00003206}}
+.mushroom div {
+  position: absolute;
+  display: inline-block;
+  width: 40px;
+  height: 40 px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Pizza_errors\/style\.scss}line{font-family:\00003212}}
+.mushroom div:first-child {
+  top: -150px;
+  left: 47px;
+  transform: rotate(11deg);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Pizza_errors\/style\.scss}line{font-family:\00003218}}
+.mushroom div:nth-child(2) {
+  top: -110px;
+  left: 145px;
+  transform: rotate(-44deg);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Pizza_errors\/style\.scss}line{font-family:\00003224}}
+.mushroom div:nth-child(3) {
+  top: -30px;
+  left: 110px;
+  transform: rotate(-11deg);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Pizza_errors\/style\.scss}line{font-family:\00003230}}
+.mushroom div:nth-child(4) {
+  top: 20px;
+  left: 130px;
+  transform: rotate(80deg);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Pizza_errors\/style\.scss}line{font-family:\00003236}}
+.mushroom div:nth-child(5) {
+  top: -30px;
+  left: -40px;
+  transform: rotate(-11deg);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Pizza_errors\/style\.scss}line{font-family:\00003244}}
+.cap {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 40 px/2;
+  background: #b49989;
+  border-radius: 100px 100px 0 0;
+  z-index: 3;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Pizza_errors\/style\.scss}line{font-family:\00003254}}
+.stem {
+  display: inline-block;
+  width: 20px;
+  height: 40 px/2;
+  background: #c3b5ae;
+  margin-top: -40px;
+  margin-left: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Pizza_errors\/style\.scss}line{font-family:\00003263}}
+.pep {
+  position: relative;
+  z-index: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Pizza_errors\/style\.scss}line{font-family:\00003267}}
+.pep span {
+  position: absolute;
+  display: inline-block;
+  width: 40px;
+  height: 35px;
+  border-radius: 30px;
+  background: #b3241c;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Pizza_errors\/style\.scss}line{font-family:\00003275}}
+.pep span:nth-child(2n) {
+  top: -100px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Pizza_errors\/style\.scss}line{font-family:\00003279}}
+.pep span:nth-child(3) {
+  top: -130px;
+  left: 120px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Pizza_errors\/style\.scss}line{font-family:\00003284}}
+.pep span:nth-child(4) {
+  left: 80px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Pizza_errors\/style\.scss}line{font-family:\00003288}}
+.pep span:nth-child(5) {
+  left: 150px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Pizza_errors\/style\.scss}line{font-family:\00003292}}
+.pep span:nth-child(6) {
+  top: -85px;
+  left: 150px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Pizza_errors\/style\.scss}line{font-family:\00003297}}
+.pep span:nth-child(7) {
+  top: 45px;
+  left: 60px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Pizza_errors\/style\.scss}line{font-family:\00003302}}
+.pep span:nth-child(8) {
+  top: -45px;
+  left: 60px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Pizza_errors\/style\.scss}line{font-family:\00003307}}
+.pep span:nth-child(9) {
+  top: -40px;
+  left: -20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Pizza_errors\/style\.scss}line{font-family:\00003312}}
+.pep span:nth-child(10) {
+  top: -140px;
+  left: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Pizza_errors\/style\.scss}line{font-family:\00003317}}
+.pep span:nth-child(11) {
+  top: -162px;
+  left: 70px;
+}
+
+/*# sourceMappingURL=style.css.map */
